@@ -1,0 +1,8 @@
+project: savantenvs/flaxengine
+target: fuzz_json_tools
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/fuzz_json_tools/testsuite
+cmds:
+  - cmd: /mayhem/fuzz_json_tools
+    libfuzzer: true

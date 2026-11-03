@@ -1,0 +1,1 @@
+{"ID":"00112233445566778899aabbccddeeff","TypeName":"FlaxEngine.Actor","Transform":{"Translation":{"X":1.0,"Y":2.0,"Z":3.0},"Scale":{"X":1,"Y":1,"Z":1}},"Children":[{"ID":"ffeeddccbbaa99887766554433221100","Name":"child"}]}
