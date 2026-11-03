@@ -1,0 +1,8 @@
+project: savantenvs/flaxengine
+target: fuzz_variant_stream
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/fuzz_variant_stream/testsuite
+cmds:
+  - cmd: /mayhem/fuzz_variant_stream
+    libfuzzer: true

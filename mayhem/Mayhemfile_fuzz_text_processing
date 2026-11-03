@@ -1,0 +1,8 @@
+project: savantenvs/flaxengine
+target: fuzz_text_processing
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/fuzz_text_processing/testsuite
+cmds:
+  - cmd: /mayhem/fuzz_text_processing
+    libfuzzer: true
